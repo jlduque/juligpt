@@ -24,3 +24,6 @@ streamlit run main.py
 
 - `main.py` - Aplicação principal
 - `requirements.txt` - Dependências
+
+
+https://juligpt.streamlit.app/ 
