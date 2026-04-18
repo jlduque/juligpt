@@ -25,3 +25,6 @@ streamlit run main.py
 - `.env` - Configuração da API Key
 - `main.py` - Aplicação principal
 - `requirements.txt` - Dependências
+
+## App
+https://juligpt.streamlit.app
