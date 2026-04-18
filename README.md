@@ -6,7 +6,7 @@ Chatbot estilo chatGPT com API Gemini.
 
 1. Obtenha sua API Key em: https://aistudio.google.com/app/apikey
 
-2. Edite o arquivo `.env` e substitua `SUA_API_KEY_AQUI` pela sua API Key
+2. Edite o arquivo `secrets.toml` e insira a sua API Key
 
 ## Instalação
 
@@ -22,6 +22,5 @@ streamlit run main.py
 
 ## Arquivos
 
-- `.env` - Configuração da API Key
 - `main.py` - Aplicação principal
 - `requirements.txt` - Dependências
