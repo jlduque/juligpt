@@ -1,4 +1,4 @@
-# Chat IA Generativa - Gemini + Streamlit
+# juliGPT - Chat IA Generativa - Gemini + Streamlit
 
 Chatbot estilo chatGPT com API Gemini.
 
