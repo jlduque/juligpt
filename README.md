@@ -1,4 +1,4 @@
-# juliGPT - Chat IA Generativa - Gemini + Streamlit
+# Chat IA Generativa - Gemini + Streamlit
 
 Chatbot estilo chatGPT com API Gemini.
 
@@ -25,6 +25,3 @@ streamlit run main.py
 - `.env` - Configuração da API Key
 - `main.py` - Aplicação principal
 - `requirements.txt` - Dependências
-
-## App
-https://juligpt.streamlit.app

@@ -1,10 +1,5 @@
 import streamlit as st
 from google import genai
-import os
-from dotenv import load_dotenv
-from datetime import datetime
-
-load_dotenv()
 
 st.set_page_config(
     page_title="✨ JuliGPT",
@@ -20,10 +15,10 @@ if "messages" not in st.session_state:
 if "user_name" not in st.session_state:
     st.session_state.user_name = "Você"
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = st.secrets["AIzaSyBzuCqlYzaBj98Y4PnLBSINOArGpqFapig"]
 
-if not API_KEY or API_KEY == "SUA_API_KEY_AQUI":
-    st.error("⚠️ Configure sua API Key no arquivo .env")
+if not API_KEY:
+    st.error("⚠️ Configure sua API Key nos secrets do Streamlit")
     st.stop()
 
 client = genai.Client(api_key=API_KEY)
