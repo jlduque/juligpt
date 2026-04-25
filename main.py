@@ -15,7 +15,7 @@ if "messages" not in st.session_state:
 if "user_name" not in st.session_state:
     st.session_state.user_name = "Você"
 
-API_KEY = st.secrets["AIzaSyBzuCqlYzaBj98Y4PnLBSINOArGpqFapig"]
+API_KEY = st.secrets["AIzaSyAzBFoy4s2miimfYu9AliJpST1CvqXoLPk"]
 
 if not API_KEY:
     st.error("⚠️ Configure sua API Key nos secrets do Streamlit")
